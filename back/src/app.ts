@@ -8,3 +8,4 @@ server.use(morgan('dev'));
 server.use('/', routes)
 
 export default server;
+

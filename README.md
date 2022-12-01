@@ -1,4 +1,15 @@
-# app-ts
+# Back
+ 
+Listening Server and build the Typescript evert time you make changes
+```javascript
+npm run dev
+```
+
+# Front
+Later
+
+
+## app-ts
 practicing typescript. backend and frontend
 
 
