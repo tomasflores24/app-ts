@@ -1,17 +1,8 @@
-import express from 'express';
-// import morgan from 'morgan'
-
-const app = express();
-app.use(express.json());
-// app.use(morgan('dev'));
+import server from './src/app';
 
 const PORT:number = 3001;
 
-app.get('/ping', ( _,res ) => {
-    // console.log("gogogo");
-    return res.send("nuevo");
+server.listen(PORT, () => {
+    console.log("%s Listening",PORT)
 })
 
-app.listen(PORT, () => {
-    console.log(`%s Listening ${PORT}`);
-})
